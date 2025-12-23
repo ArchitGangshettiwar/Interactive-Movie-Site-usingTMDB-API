@@ -1,21 +1,27 @@
-# Movie Search React App
+# Movie Search App
 
-This is a small React frontend  with components for searching and displaying movies (`Search.jsx`, `MovieCard.jsx`) and an Appwrite integration (`appwrite.js`). Use this README to set up, run, and configure the app.
+A small React frontend for searching and displaying movies with Appwrite integration.
 
+## Features
+- Movie search functionality
+- Responsive movie cards
+- Appwrite backend integration
+- Vite/Create React App compatible
 
+## Quick Start (Windows)
 
-### Clone the Repository and Install Dependencies
-
-```bash
+### 1. Clone and Install
 git clone <repo-url>
-cd <your-path>
+cd c:\Users\ARCHIT\first-react-app
 npm install
 
-Please ensure that you have your env.local file setup like this :
 
-VITE_TMDB_API_KEY=   
+Add these environment variables in your .env file :
+
+VITE_TMDB_API_KEY=
 VITE_APPWRITE_PROJECT_ID = 
 VITE_APPWRITE_DATABASE_ID =     
 VITE_APPWRITE_COLLECTION_ID =    
+
 
 
