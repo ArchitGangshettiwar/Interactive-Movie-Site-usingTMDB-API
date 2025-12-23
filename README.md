@@ -1,16 +1,21 @@
-# React + Vite
+This is a small React frontend (entry: main.jsx) with components for searching and displaying movies (Search.jsx, MovieCard.jsx) and an Appwrite integration (appwrite.js). Use this README to set up, run, and configure the app.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Quick start (Windows)
 
-Currently, two official plugins are available:
+Clone the repo and install dependencies:
+git clone <repo-url>
+cd c:\Users\ARCHIT\first-react-app
+npm install
+##Configure Appwrite and environment variables:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create an Appwrite project and note endpoint and project ID.
+Open src\appwrite.js and update endpoint/project-id or create environment variables (recommended) and reference them in appwrite.js. Use Vite-style names if this is a Vite project (e.g. VITE_APPWRITE_ENDPOINT, VITE_APPWRITE_PROJECT).
+If the app uses a third-party movie API, add the API key (e.g. VITE_MOVIE_API_KEY) and endpoint.
 
-## React Compiler
+##Start the dev server:
+If Vite: npm run dev
+If Create React App: npm start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##Build for production:
+npm run build
+Serve the dist or build folder with a static server.
