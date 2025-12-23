@@ -10,17 +10,20 @@ A small React frontend for searching and displaying movies with Appwrite integra
 
 ## Quick Start (Windows)
 
-### 1. Clone and Install
+### Clone and Install
 git clone <repo-url>
-cd c:\Users\ARCHIT\first-react-app
+cd <repo path>
 npm install
 
 
-Add these environment variables in your .env file :
+Add these environment variables to your .env file :
 
 VITE_TMDB_API_KEY=
+
 VITE_APPWRITE_PROJECT_ID = 
-VITE_APPWRITE_DATABASE_ID =     
+
+VITE_APPWRITE_DATABASE_ID =   
+
 VITE_APPWRITE_COLLECTION_ID =    
 
 
