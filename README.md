@@ -1,21 +1,21 @@
-This is a small React frontend (entry: main.jsx) with components for searching and displaying movies (Search.jsx, MovieCard.jsx) and an Appwrite integration (appwrite.js). Use this README to set up, run, and configure the app.
+# Movie Search React App
 
-##Quick start (Windows)
+This is a small React frontend  with components for searching and displaying movies (`Search.jsx`, `MovieCard.jsx`) and an Appwrite integration (`appwrite.js`). Use this README to set up, run, and configure the app.
 
-Clone the repo and install dependencies:
+## Quick Start (Windows)
+
+### Clone the Repository and Install Dependencies
+
+```bash
 git clone <repo-url>
-cd c:\Users\ARCHIT\first-react-app
+cd <your-path>
 npm install
-##Configure Appwrite and environment variables:
 
-Create an Appwrite project and note endpoint and project ID.
-Open src\appwrite.js and update endpoint/project-id or create environment variables (recommended) and reference them in appwrite.js. Use Vite-style names if this is a Vite project (e.g. VITE_APPWRITE_ENDPOINT, VITE_APPWRITE_PROJECT).
-If the app uses a third-party movie API, add the API key (e.g. VITE_MOVIE_API_KEY) and endpoint.
+Please ensure that you have your env.local file setup like this :
 
-##Start the dev server:
-If Vite: npm run dev
-If Create React App: npm start
+VITE_TMDB_API_KEY=   
+VITE_APPWRITE_PROJECT_ID = 
+VITE_APPWRITE_DATABASE_ID =     
+VITE_APPWRITE_COLLECTION_ID =    
 
-##Build for production:
-npm run build
-Serve the dist or build folder with a static server.
+
