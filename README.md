@@ -2,7 +2,7 @@
 
 This is a small React frontend  with components for searching and displaying movies (`Search.jsx`, `MovieCard.jsx`) and an Appwrite integration (`appwrite.js`). Use this README to set up, run, and configure the app.
 
-## Quick Start (Windows)
+
 
 ### Clone the Repository and Install Dependencies
 
