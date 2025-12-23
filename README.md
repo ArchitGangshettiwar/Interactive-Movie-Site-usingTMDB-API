@@ -11,9 +11,12 @@ A small React frontend for searching and displaying movies with Appwrite integra
 ## Quick Start (Windows)
 
 ### Clone and Install
-git clone <<repo-url>>
-cd <<repo path>>
-npm install
+- git clone [repo-url]
+
+- cd {repo-path}
+
+- npm install
+
 
 
 Add these environment variables to your .env file :
